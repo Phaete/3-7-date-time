@@ -22,7 +22,7 @@ public class Main {
         }
 
         // Calculate the difference in days between two arbitrary dates
-        System.out.println("Difference in hours between two arbitrary dates: ");
-        System.out.println(ChronoUnit.HOURS.between(LocalDateTime.now().minusWeeks(1), LocalDateTime.now().plusHours(2)));
+        System.out.println("Difference in days between two arbitrary dates: ");
+        System.out.println(ChronoUnit.DAYS.between(LocalDateTime.now().minusWeeks(1), LocalDateTime.now().plusHours(2)));
     }
 }
